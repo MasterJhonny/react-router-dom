@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+.App ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+
+.active {
+  color: #fff;
+  background-color: #46244C;
+  padding: 4px 10px;
+  border-radius: 5px;
+  transition: all 1s;
+}
+
+a {
+  text-decoration: none;
+  background-color: #FAD9E6;
+  padding: 4px 10px;
+  border-radius: 5px;
+}
+
+a:active {
+  color: #712B75;
+}
+
+.login {
+  width: 85%;
+  min-width: 300px;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
